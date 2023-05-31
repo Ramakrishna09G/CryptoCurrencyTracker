@@ -1,0 +1,78 @@
+/* Write your CSS code here */
+.crypto-currencies-list-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.main-heading {
+  color: #00e7ff;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.cryptocurrency-image {
+  width: 90%;
+}
+.crypto-currency-items-container {
+  border: solid #00e7ff 3px;
+  border-radius: 5px;
+  width: 80%;
+  list-style-type: none;
+}
+.crypto-currency-items-nav-bar {
+  background-color: #092e33;
+  height: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.coin-type {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 35px;
+}
+.usd-and-euro-card {
+  display: flex;
+  width: 30%;
+  margin-right: 25px;
+}
+.usd {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+
+  flex-grow: 1;
+  text-align: right;
+}
+.euro {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+
+  flex-grow: 1;
+  text-align: right;
+}
+.crypto-currency-items-body {
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .crypto-currency-items-container {
+    width: 95%;
+  }
+  .crypto-currencies-list-bg-container {
+    width: 92%;
+  }
+  .coin-type {
+    margin-left: 10px;
+  }
+}
